@@ -1,0 +1,21 @@
+C Program Stages:
+
+1. PREPROCESSING
+   - Expands #include, #define
+   - Error: "undefined macro" if #define missing
+
+2. COMPILATION
+   - Converts to assembly
+   - Error: "expected ';' before..." (syntax)
+
+3. ASSEMBLY
+   - Assembly → object file
+   - Error: "invalid operand" (bad instruction)
+
+4. LINKING
+   - Links libraries
+   - Error: "undefined reference to 'printf'" (missing stdio.h)
+
+5. LOADING
+   - OS loads executable
+   - Error: "No such file or directory"
