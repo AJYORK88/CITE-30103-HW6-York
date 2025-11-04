@@ -1,0 +1,5 @@
+Scope difference:
+
+- global_count is declared outside main() → can be used in any function
+- local_count is inside main() → only exists while main() runs
+- Global lasts entire program, local is destroyed when main() ends
