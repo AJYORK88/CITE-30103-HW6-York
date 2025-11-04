@@ -1,0 +1,10 @@
+This is what happens if #include <stdio.h> is removed:
+
+The compiler will complain during the **compilation** step.
+
+Typical error:
+"warning: implicit declaration of function 'printf'"
+
+Because the compiler has no idea what printf is. It guesses it returns an int, which is wrong.
+
+If you ignore the warning, the program might link but printf will print garbage or crash at runtime.
