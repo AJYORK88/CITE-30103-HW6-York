@@ -1,0 +1,10 @@
+Fixed the bad variable names:
+
+int 1value = 10;        -> int value1 = 10;     // can't start with number
+float avg-rate = 12.5;  -> float avg_rate = 12.5; // no hyphen allowed
+char Class = 'A';       -> char student_class = 'A'; // better name, avoids confusion
+
+Rules broken:
+- First character must be letter or _
+- Only letters, numbers, _ after
+- Can't use - or start with digit
